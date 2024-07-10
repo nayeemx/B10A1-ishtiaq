@@ -9,6 +9,10 @@
     font-family: 'Azeret Mono', Monospace;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 1440px;
     margin: 0 auto;
@@ -100,9 +104,13 @@
 }
 
 .hw-btn button span {
-    color: white;
     font-size: 18px;
     font-weight: 600;
+    color: white;
+}
+
+.hw-btn button span a{
+    text-decoration: none;
 }
 
 /* hero end */
